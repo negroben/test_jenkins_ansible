@@ -1,0 +1,20 @@
+---
+# Variables comunes
+- validate_certs: no
+- debug_flag: no
+
+# vCenter Objetos de conexion
+- vcenter_server: ansesvcenterdes.anses.gov.ar
+- vcenter_user: adminadministrator@anses.local
+- vcenter_pass: Anses**88465!
+
+# Vcenter objetos de vmware
+- datacenter: ANSES_DESA_QA
+- cluster_name: 1 Cluster UCS460 - Desa y QA
+- vm_name: rhel_7_template
+
+- vmware_name: "{{vmware_name}}"     
+- vmware_network: "Red Aprovisionamiento VLAN 608"
+- vmware_folder: "Ansible_Deploys"
+- vmware_template: "1_Temp_CENTOS7"
+- dumpfacts: False
