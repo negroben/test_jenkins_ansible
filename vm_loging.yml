@@ -1,5 +1,5 @@
 ---
-- name: Example showing VMware HTTP API utilization
+- name: Example showing VMware HTTP API utilization.
   hosts: localhost
   gather_facts: no
   vars_files:
