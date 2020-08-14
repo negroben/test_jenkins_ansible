@@ -4,7 +4,7 @@
 - debug_flag: no
 
 # vCenter Objetos de conexion
-- vcenter_server: ansesvcenterdes.anses.gov.ar
+- vcenter_server: ansesvcenterpip.anses.gov.ar
 - vcenter_user: adminadministrator@anses.local
 - vcenter_pass: Anses**88465!
 
